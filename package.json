@@ -1,0 +1,14 @@
+{
+  "name": "neo-testing",
+  "private": true,
+  "scripts": {
+    "start": "echo 'Default Start Script!'"
+  },
+  "workspaces": {
+    "packages": [
+      "src/workspaces/modules/*",
+      "src/workspaces/microservices/*",
+      "src/workspaces/apps/*"
+    ]
+  }
+}
